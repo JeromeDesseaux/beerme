@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainHeader {
+  flex: 0 0 100%;
+  color: #d7aa89;
+  font-size: 5em;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+}
+
+.input {
+  flex: 0 0 70%;
+  width: 50%;
+  align-self: center;
+  border-radius: 15px;
+  height: 4em;
+  padding-left: 2em;
+  margin-bottom: 3em;
+}
